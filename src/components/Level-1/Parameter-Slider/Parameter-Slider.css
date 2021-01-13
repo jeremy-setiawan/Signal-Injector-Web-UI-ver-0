@@ -1,0 +1,76 @@
+.parameter-adj-holder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parameter-adj-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.parameter-slider-holder{
+    margin-top: 3mm;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    margin-bottom: 0mm;
+}
+
+.parameter-separator{
+  background-color: rgb(90, 83, 83);
+  border: none;
+  height: 5px;
+  margin-left: 5mm;
+  margin-right: 5mm;
+  margin-top: 1mm;
+  margin-bottom: 2mm;
+}
+
+.parameter-title-pos{
+  text-align: left;
+  margin-left: 5mm;
+  font-size: 20pt;
+}
+
+.parameter-title{
+  margin-bottom: 1mm;
+}
+
+
+
+  .parameter-slider-pos{
+      width: 50%;
+      justify-content: center;
+      align-content: center;
+      padding: 6mm;
+  }
+
+  .parameter-scale-box{
+    font-size: 20pt;
+    color:rgb(0, 0, 0);
+  }
+
+  .parameter-scale-text{
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+    padding-top: 5mm;
+    padding-bottom: 0mm;
+  }
+
+  .parameter-send-button-column{
+    flex: 1;
+    width: 100%;
+    margin-top: 0mm;
+    margin-bottom: 10mm;
+  }
+
+  .parameter-send-button-holder{
+    width: 50%;
+    margin: auto;
+  }

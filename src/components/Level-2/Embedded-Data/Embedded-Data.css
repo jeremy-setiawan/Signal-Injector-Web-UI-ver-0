@@ -1,0 +1,10 @@
+.extra-container{
+    background-color: transparent;
+    width: 100%;
+}
+
+.card-content-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

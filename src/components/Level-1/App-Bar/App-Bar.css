@@ -1,0 +1,8 @@
+.appbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: yellow;
+    align-content: space-around;
+    width: 100%;
+}

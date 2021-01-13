@@ -1,0 +1,7 @@
+.background_image{
+    background-image: url("../../../images/Background\ Cold.jpg");
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+}

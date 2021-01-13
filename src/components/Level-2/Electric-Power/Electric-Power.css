@@ -1,0 +1,29 @@
+.temperatur-holder{
+    background-color: transparent;
+    width: 100%;
+}
+.title-pos{
+    text-align: left;
+    margin-left: 2cm;
+    font-size: 20pt;
+}
+
+.title{
+    margin-bottom: 1mm;
+}
+
+.temperature-separator{
+    background-color: rgb(90, 83, 83);
+    border: none;
+    height: 5px;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    margin-top: 1mm;
+    margin-bottom: 5mm;
+}
+
+
+.temperatur-content-holder{
+    display: flex;
+    justify-content: space-around;
+}

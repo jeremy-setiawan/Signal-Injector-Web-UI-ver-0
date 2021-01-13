@@ -1,0 +1,101 @@
+.setup-container{
+    width: 100%;
+    margin: 0mm;
+    margin-top: 0mm;
+}
+
+.setup-flex{
+    display: flex;
+    flex-direction: flex;
+    height: 15mm;
+}
+
+.setup-finish-image{
+    align-self: end;
+    width: 150px;
+    padding-top: 15px;
+}
+
+.setup-text{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 5mm;
+    font-size: 20pt;
+    justify-content: left;
+    min-width: 100px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.setup-information{
+    word-wrap: break-word;
+    font-size: 10pt;
+    margin-left: 5mm;
+    margin-top: 9mm;
+    margin-bottom: 0mm;
+    padding-bottom: 5mm;
+}
+
+.setup-font{
+    font-size: 20pt;
+    font-weight: bold;
+    justify-content: left;
+    margin-top: 5mm;
+}
+
+.setup-attr{
+    display: flex;
+    flex-direction: row;
+}
+
+.setup-status{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    vertical-align: middle;
+    justify-content: space-around;
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+}
+
+.setup-slider-toggle{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.setup-toggle-font{
+    font-size: 20pt;
+    font-weight: bold;
+    justify-content: left;
+    margin-top: 0.5mm;
+    margin-bottom: 0mm;
+    padding-bottom: 0mm;
+}
+
+.setup-image-size{
+    height: 10mm;
+    width: auto;
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+}
+
+.setup-loading{
+    padding-top: 15px;
+    margin-right: 10mm;
+}
+
+.setup-hidden{
+    visibility: hidden;
+}
+
+.setup-separator{
+  background-color: rgb(90, 83, 83);
+  border: none;
+  height: 5px;
+  margin-left: 5mm;
+  margin-right: 5mm;
+  margin-top: 1mm;
+  margin-bottom: 2mm;
+}

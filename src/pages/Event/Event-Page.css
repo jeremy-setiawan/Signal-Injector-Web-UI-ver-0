@@ -1,0 +1,36 @@
+.event-page-containter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.event-table-containter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.event-page-title-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+
+.event-separator{
+    background-color: rgb(90, 83, 83);
+    border: none;
+    height: 5px;
+    margin-left: 5mm;
+    margin-right: 5mm;
+    margin-top: 1mm;
+    margin-bottom: 2mm;
+}
+
+.event-header-font{
+    font-size: 24pt;
+}
