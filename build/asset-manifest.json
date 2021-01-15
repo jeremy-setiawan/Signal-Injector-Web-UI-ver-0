@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/Signal-Injector-Web-UI-ver-0/static/css/main.33058e6b.chunk.css",
-    "main.js": "/Signal-Injector-Web-UI-ver-0/static/js/main.f627333f.chunk.js",
-    "main.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/main.f627333f.chunk.js.map",
+    "main.css": "/Signal-Injector-Web-UI-ver-0/static/css/main.bb633a13.chunk.css",
+    "main.js": "/Signal-Injector-Web-UI-ver-0/static/js/main.d8881d91.chunk.js",
+    "main.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/main.d8881d91.chunk.js.map",
     "runtime-main.js": "/Signal-Injector-Web-UI-ver-0/static/js/runtime-main.7a37a4e2.js",
     "runtime-main.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/runtime-main.7a37a4e2.js.map",
-    "static/js/2.68c47ad0.chunk.js": "/Signal-Injector-Web-UI-ver-0/static/js/2.68c47ad0.chunk.js",
-    "static/js/2.68c47ad0.chunk.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/2.68c47ad0.chunk.js.map",
+    "static/js/2.56f48f08.chunk.js": "/Signal-Injector-Web-UI-ver-0/static/js/2.56f48f08.chunk.js",
+    "static/js/2.56f48f08.chunk.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/2.56f48f08.chunk.js.map",
     "static/js/3.84864403.chunk.js": "/Signal-Injector-Web-UI-ver-0/static/js/3.84864403.chunk.js",
     "static/js/3.84864403.chunk.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/3.84864403.chunk.js.map",
     "index.html": "/Signal-Injector-Web-UI-ver-0/index.html",
-    "static/css/main.33058e6b.chunk.css.map": "/Signal-Injector-Web-UI-ver-0/static/css/main.33058e6b.chunk.css.map",
-    "static/js/2.68c47ad0.chunk.js.LICENSE.txt": "/Signal-Injector-Web-UI-ver-0/static/js/2.68c47ad0.chunk.js.LICENSE.txt",
+    "static/css/main.bb633a13.chunk.css.map": "/Signal-Injector-Web-UI-ver-0/static/css/main.bb633a13.chunk.css.map",
+    "static/js/2.56f48f08.chunk.js.LICENSE.txt": "/Signal-Injector-Web-UI-ver-0/static/js/2.56f48f08.chunk.js.LICENSE.txt",
     "static/media/Login-Background.css": "/Signal-Injector-Web-UI-ver-0/static/media/Background Cold.1ac25416.jpg",
+    "static/media/Icon DI Off.e726e42e.png": "/Signal-Injector-Web-UI-ver-0/static/media/Icon DI Off.e726e42e.png",
+    "static/media/Icon DI On.c24fe3ec.png": "/Signal-Injector-Web-UI-ver-0/static/media/Icon DI On.c24fe3ec.png",
     "static/media/Icon Relay Off AC.1b4083bf.png": "/Signal-Injector-Web-UI-ver-0/static/media/Icon Relay Off AC.1b4083bf.png",
     "static/media/Icon Relay On AC.b0c4ef87.png": "/Signal-Injector-Web-UI-ver-0/static/media/Icon Relay On AC.b0c4ef87.png",
     "static/media/Login-Container.css": "/Signal-Injector-Web-UI-ver-0/static/media/winter.c6604cc9.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.7a37a4e2.js",
-    "static/js/2.68c47ad0.chunk.js",
-    "static/css/main.33058e6b.chunk.css",
-    "static/js/main.f627333f.chunk.js"
+    "static/js/2.56f48f08.chunk.js",
+    "static/css/main.bb633a13.chunk.css",
+    "static/js/main.d8881d91.chunk.js"
   ]
 }
