@@ -13,7 +13,7 @@ function ParameterAdjusment(props){
                 minScale={0}
                 maxScale={5}
                 defaultValue={2.5}
-                title={"AO-1"}
+                title={"AO_1"}
                 value={props.FirestoreData.AO_1}
                 unit={" V"}
                 AOID={props.AOID}
@@ -26,7 +26,7 @@ function ParameterAdjusment(props){
                 minScale={0}
                 maxScale={5}
                 defaultValue={2.5}
-                title={"AO-2"}
+                title={"AO_2"}
                 value={props.FirestoreData.AO_2}
                 unit={" V"}
                 AOID={props.AOID}

@@ -1,10 +1,14 @@
 /************************** Import library/fungsi ****************************/
 import React from 'react';
 import {SetupSimpleInput,SetupSimpleOutput} from '../../Level-1';
-//import OnAC from '../../../images/Icon On AC.png';
-//import OffAC from '../../../images/Icon Off AC.png';
+/*
+import OnAC from '../../../images/Icon On AC.png';
+import OffAC from '../../../images/Icon Off AC.png';
 import OnRelay from '../../../images/Icon Relay On AC.png';
 import OffRelay from '../../../images/Icon Relay Off AC.png';
+*/
+import OnDI from '../../../images/Icon DI On.png';
+import OffDI from '../../../images/Icon DI Off.png';
 /*
 import OnBattery from '../../../images/Icon On Battery.png';
 import OffBattery from '../../../images/Icon Off Battery.png';
@@ -21,14 +25,14 @@ function DigioContainer(props){
             <section className="title-pos">
                 <h1 className="title">Digital Input</h1>
             </section>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_1} Title="DI_1" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_2} Title="DI_2" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_3} Title="DI_3" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_4} Title="DI_4" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_5} Title="DI_5" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_6} Title="DI_6" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_7} Title="DI_7" ImageOn={OnRelay} ImageOff={OffRelay}/>
-            <SetupSimpleOutput Value={props.FirestoreData.DI_8} Title="DI_8" ImageOn={OnRelay} ImageOff={OffRelay}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_1} Title="DI_1" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_2} Title="DI_2" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_3} Title="DI_3" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_4} Title="DI_4" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_5} Title="DI_5" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_6} Title="DI_6" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_7} Title="DI_7" ImageOn={OnDI} ImageOff={OffDI}/>
+            <SetupSimpleOutput Value={props.FirestoreData.DI_8} Title="DI_8" ImageOn={OnDI} ImageOff={OffDI}/>
             <section className="title-pos">
                 <h1 className="title">Digital Output</h1>
             </section>

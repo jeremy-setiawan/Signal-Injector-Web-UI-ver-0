@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Slider from '@material-ui/core/Slider';
 import Tooltip from '@material-ui/core/Tooltip';
+import Button from '@material-ui/core/Button';
+
+import {firestoreDbRef} from '../../../pages/Home/Home-Page';
 
 function ValueLabelComponent(props) {
   const { children, open, value } = props;
@@ -52,24 +55,53 @@ const PrettoSlider = withStyles({
 })(Slider);
 
 function valuetext(value) {
-    return `${value}°C`;
-  }
+  return `${value}°C`;
+}
 
 
 export default function DiscreteSlider(props) {
+  const [sliderVal, setSliderVal] = useState(0);
+
+  const handleSliderChange = (event, newValue) => {
+    //console.log(newValue);
+    setSliderVal(newValue);
+  }
+
+  const handleSend = () => {
+    firestoreDbRef.collection('Signal_Injector').doc(props.AOID).update({ [props.title]: sliderVal })
+      .then(function () {
+        console.log("Write success!")
+      })
+      .catch((error) => {
+        console.error("Error updating document: ", error);
+      });
+    //console.log("data updated");
+  }
 
   return (
     <div>
-      <PrettoSlider 
-      defaultValue={props.defaultValue}
-      getAriaValueText={valuetext}
-      aria-labelledby="discrete-slider"
-      valueLabelDisplay="auto"
-      step={0.5}
-      marks
-      min={props.minScale}
-      max={props.maxScale}
+      <PrettoSlider
+        defaultValue={props.defaultValue}
+        getAriaValueText={valuetext}
+        aria-labelledby="discrete-slider"
+        valueLabelDisplay="auto"
+        step={0.5}
+        marks
+        min={props.minScale}
+        max={props.maxScale}
+        onChange={handleSliderChange}
       />
+      <section className="parameter-send-button-column">
+        <section className="parameter-send-button-holder">
+          <Button
+            variant="contained"
+            color="primary"
+            onClick={handleSend}
+            fullWidth={true}>
+            Send
+          </Button>
+        </section>
+      </section>
     </div>
   );
 }
