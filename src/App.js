@@ -31,7 +31,7 @@ function App() {
         <BrowserRouter>
         <Switch>
             <Route path="/auth" component={UnauthorizedLayout} />
-            <AuthorizedRoute path="/" component={PrimaryLayout} />
+            <AuthorizedRoute path="/Signal-Injector-Web-UI-ver-0/" component={PrimaryLayout} />
             <Redirect to="/auth" />
           </Switch>
         </BrowserRouter>
