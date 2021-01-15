@@ -16,10 +16,10 @@ const PrimaryLayout = ({ match,history }) => (
     <main>
       <AppBarMaterial />
         <Switch>
-          <Route path={`/Signal-Injector-Web-UI-ver-0/`} exact component={HomePage} />
-          <Route path={`/Signal-Injector-Web-UI-ver-0/event`} component={EventPage} />
-          <Route path={`/Signal-Injector-Web-UI-ver-0/parameter`} component={ParameterPage} />
-          <Route path={`/Signal-Injector-Web-UI-ver-0/status`} component={StatusPage} />
+          <Route path={`/`} exact component={HomePage} />
+          <Route path={`/event`} component={EventPage} />
+          <Route path={`/parameter`} component={ParameterPage} />
+          <Route path={`/status`} component={StatusPage} />
           {/* <Route path={`${match.path}/history`} component={EngUnitSetup} /> */}
           <Redirect to={`${match.url}`} />
         </Switch>

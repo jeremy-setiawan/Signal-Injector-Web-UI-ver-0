@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Signal-Injector-Web-UI-ver-0/static/css/main.bb633a13.chunk.css",
-    "main.js": "/Signal-Injector-Web-UI-ver-0/static/js/main.8c87bdae.chunk.js",
-    "main.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/main.8c87bdae.chunk.js.map",
+    "main.js": "/Signal-Injector-Web-UI-ver-0/static/js/main.bdd09625.chunk.js",
+    "main.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/main.bdd09625.chunk.js.map",
     "runtime-main.js": "/Signal-Injector-Web-UI-ver-0/static/js/runtime-main.7a37a4e2.js",
     "runtime-main.js.map": "/Signal-Injector-Web-UI-ver-0/static/js/runtime-main.7a37a4e2.js.map",
     "static/js/2.56f48f08.chunk.js": "/Signal-Injector-Web-UI-ver-0/static/js/2.56f48f08.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.7a37a4e2.js",
     "static/js/2.56f48f08.chunk.js",
     "static/css/main.bb633a13.chunk.css",
-    "static/js/main.8c87bdae.chunk.js"
+    "static/js/main.bdd09625.chunk.js"
   ]
 }
